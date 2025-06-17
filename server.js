@@ -58,3 +58,8 @@ app.post('/translate', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Server is running!');
+});
+
+
